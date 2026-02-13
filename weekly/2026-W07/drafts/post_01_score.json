@@ -1,11 +1,71 @@
 {
   "scores": {
-    "systems_strategic": 5,
-    "technical_rigor": 5,
-    "clarity": 5,
+    "systems_strategic": 4,
+    "technical_rigor": 3,
+    "clarity": 4,
     "novelty": 3
   },
-  "passed": true,
-  "fail_reasons": [],
-  "revision_count": 0
+  "passed": false,
+  "fail_reasons": [
+    "Technical rigor score below threshold",
+    "technical_rigor_below_threshold"
+  ],
+  "rationale": "",
+  "hard_gates": {
+    "has_technical_anchor": true,
+    "has_systems_implication": true,
+    "has_evaluative_judgment": true,
+    "hype_or_vague": false,
+    "ungrounded_factual_claims": false,
+    "too_academic_summary": false,
+    "too_influencer_style": false
+  },
+  "classification": {
+    "pillar": "insight_thinking",
+    "hook_type": "framework",
+    "themes": [
+      "AI regulation",
+      "risk management"
+    ]
+  },
+  "revision_notes": {
+    "top_3_fixes": [
+      "Increase technical rigor by providing more detailed mechanisms and constraints.",
+      "Clarify the technical anchors with specific examples or references.",
+      "Ensure the evaluative judgment includes a deeper analysis of potential failures or limitations."
+    ],
+    "line_edits": [],
+    "missing_elements": [
+      "More detailed explanation of the technical mechanisms behind the proposed regulatory framework.",
+      "Discussion of potential failure modes and how the proposed framework addresses them."
+    ]
+  },
+  "tracking": {
+    "one_sentence_summary": "The post argues for regulating AI use rather than the models themselves, proposing a risk-based classification system.",
+    "key_claims": [
+      "Regulating AI use is more practical and legally sustainable than regulating models.",
+      "A risk-based classification system can effectively manage AI deployment risks."
+    ],
+    "systems_implications": [
+      "Focus on use cases and enforcement at critical choke points.",
+      "Create market dynamics that incentivize compliance."
+    ],
+    "technical_anchors": [
+      "Clear disclosure requirements",
+      "Rigorous testing protocols",
+      "Tamper-evident logging mechanisms"
+    ],
+    "repeated_phrases_candidates": [
+      "regulate AI use",
+      "risk-based classification",
+      "practical and legally sustainable"
+    ]
+  },
+  "reasoning_trace": [
+    "The post demonstrates strong systems thinking by outlining a comprehensive framework for regulating AI use.",
+    "Clarity is high due to the structured presentation and clear explanations.",
+    "Novelty is moderate as the idea of regulating AI use is gaining traction but not yet widely implemented.",
+    "Technical rigor could be improved by providing more detailed mechanisms and constraints."
+  ],
+  "revision_count": 2
 }

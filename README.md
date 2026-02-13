@@ -28,6 +28,10 @@ Per run week (`YYYY-Www`):
 ```
 
 Date is optional; default is today.
+For `self_hosted` + `vllm`, this script always:
+- spins up the vLLM endpoint if needed,
+- verifies endpoint health (`/v1/models`) before running,
+- shuts down the endpoint after the pipeline finishes (only if the script started it).
 
 ## Runner modes
 
@@ -36,6 +40,7 @@ Date is optional; default is today.
   - Intended for GitHub-hosted runners where local LLM inference is impractical.
 - `runner_mode: self_hosted`
   - Runs full drafting + quality gate loop (up to 2 revisions).
+  - This repo is intended to run with a live `vLLM` endpoint in self-hosted mode.
   - Uses OpenAI-compatible `vLLM` endpoint from `config/model.yaml` (`api_base`, `api_key`).
   - If `require_live_llm: true`, run fails when the endpoint is unavailable.
 

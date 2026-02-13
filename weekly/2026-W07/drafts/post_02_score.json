@@ -1,11 +1,82 @@
 {
   "scores": {
-    "systems_strategic": 5,
-    "technical_rigor": 5,
-    "clarity": 5,
+    "systems_strategic": 3,
+    "technical_rigor": 3,
+    "clarity": 4,
     "novelty": 3
   },
-  "passed": true,
-  "fail_reasons": [],
-  "revision_count": 0
+  "passed": false,
+  "fail_reasons": [
+    "systems_strategic score below threshold",
+    "technical_rigor score below threshold",
+    "systems_strategic_below_threshold",
+    "technical_rigor_below_threshold"
+  ],
+  "rationale": "",
+  "hard_gates": {
+    "has_technical_anchor": true,
+    "has_systems_implication": true,
+    "has_evaluative_judgment": true,
+    "hype_or_vague": false,
+    "ungrounded_factual_claims": false,
+    "too_academic_summary": false,
+    "too_influencer_style": false
+  },
+  "classification": {
+    "pillar": "research_translation",
+    "hook_type": "framework",
+    "themes": [
+      "regulatory landscape",
+      "wearable devices",
+      "FDA guidance"
+    ]
+  },
+  "revision_notes": {
+    "top_3_fixes": [
+      "Enhance the technical depth by providing specific mechanisms and constraints related to validation protocols.",
+      "Increase the strategic analysis by discussing the broader implications of the FDA's changes on the industry and healthcare systems.",
+      "Clarify the post-market monitoring processes and their impact on reliability and safety."
+    ],
+    "line_edits": [
+      "Add specific examples of validation protocols and their technical details.",
+      "Discuss the potential failure modes of wearable devices and how they can be mitigated.",
+      "Expand on the societal and clinical impacts of wearables beyond just wellness products."
+    ],
+    "missing_elements": [
+      "More detailed discussion on the technical aspects of validation and post-market monitoring.",
+      "Strategic implications for the broader healthcare ecosystem and industry trends.",
+      "Specific mechanisms and constraints related to the FDA's guidance."
+    ]
+  },
+  "tracking": {
+    "one_sentence_summary": "The FDA's 2026 update clarifies the regulatory landscape for wearable devices, emphasizing the need for robust validation and transparency.",
+    "key_claims": [
+      "The FDA's guidance distinguishes between medical information and physiological signals.",
+      "Clinical decision support tools now have more flexibility but introduce new challenges.",
+      "General wellness products require rigorous validation to ensure accuracy and reliability."
+    ],
+    "systems_implications": [
+      "Impact on the regulatory environment for wearable devices.",
+      "Changes in how clinical decision support tools are classified and used.",
+      "Increased emphasis on post-market monitoring and validation."
+    ],
+    "technical_anchors": [
+      "Validation protocols for wearable devices.",
+      "Mechanisms for ensuring accuracy and reliability of health metrics.",
+      "Technical details of post-market monitoring processes."
+    ],
+    "repeated_phrases_candidates": [
+      "rigorous validation",
+      "transparency",
+      "post-market monitoring"
+    ]
+  },
+  "reasoning_trace": [
+    "The draft provides a clear overview of the FDA's 2026 update but lacks deep technical detail and strategic analysis.",
+    "The technical rigor could be improved by including specific mechanisms and constraints related to validation protocols.",
+    "The strategic implications could be enhanced by discussing broader industry and healthcare system impacts.",
+    "Clarity is strong due to the structured presentation and use of concrete examples.",
+    "Novelty is moderate as the topic is timely but not groundbreaking."
+  ],
+  "revision_count": 2
 }

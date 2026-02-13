@@ -7,6 +7,9 @@ api_key: EMPTY
 timeout_seconds: 120
 require_live_llm: false
 tensor_parallel_size: 2
+gpu_memory_utilization: 0.75
+auto_select_gpus: true
+startup_timeout_seconds: 900
 context_length: 8192
 temperature:
   draft: 0.5

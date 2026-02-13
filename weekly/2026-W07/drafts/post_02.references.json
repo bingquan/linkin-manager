@@ -1,18 +1,26 @@
 {
   "sources": [
     {
-      "title": "Don\u2019t Regulate AI Models. Regulate AI Use",
-      "url": "https://spectrum.ieee.org/ai-model-regulation",
-      "id": "rss:7636224450"
+      "title": "What the FDA\u2019s 2026 Update Means for Wearables",
+      "url": "https://spectrum.ieee.org/fda-medical-device-rules",
+      "id": "source:rss:7752822124"
     }
   ],
   "evidence": [
     {
-      "source_id": "rss:7636224450",
-      "snippet": "<img src=\"https://spectrum.ieee.org/media-library/silhouettes-looking-at-screens-sit-behind-a-building-shape-with-the-scales-of-justice-in-a-digital-grid-patterned-setting.jpg?id=63516186&amp;width=1200&amp;height=800&am...",
-      "note": "supports the post's central claim"
+      "source_id": "source:rss:7752822124",
+      "snippet": "The 2026 FDA update clarifies how it distinguishes between 'medical information' and systems that measure physiological 'signals' or 'patterns.'",
+      "note": "Clarification on the distinction between medical information and physiological signals."
+    },
+    {
+      "source_id": "source:rss:7752822124",
+      "snippet": "The updated guidance also sharpens examples of what counts as medical information that software may display, analyze, or print.",
+      "note": "Examples of medical information that software can handle."
     }
   ],
   "confidence": "medium",
-  "risk_flags": []
+  "risk_flags": [
+    "Data privacy concerns",
+    "Potential for misinterpretation of health data"
+  ]
 }

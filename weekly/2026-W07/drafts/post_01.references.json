@@ -1,18 +1,27 @@
 {
   "sources": [
     {
-      "title": "NIST AI Risk Management Framework",
-      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
-      "id": "standard:1606084844"
+      "title": "Don\u2019t Regulate AI Models. Regulate AI Use",
+      "url": "https://spectrum.ieee.org/ai-model-regulation",
+      "id": "source:rss:6209179985"
     }
   ],
   "evidence": [
     {
-      "source_id": "standard:1606084844",
-      "snippet": "Governance or security standard relevant to trustworthy deployment.",
-      "note": "supports the post's central claim"
+      "source_id": "source:rss:6209179985",
+      "snippet": "This leads to a critical question for American engineers and policymakers alike: What can the U.S. actually enforce in a way that reduces real-world harm? My answer: Regulate AI use, not the underlying models.",
+      "note": "The article argues for regulating the use of AI rather than the models themselves."
+    },
+    {
+      "source_id": "source:rss:6209179985",
+      "snippet": "A use-based regime classifies deployments by risk and scales obligations accordingly. Here is a workable template focused on keeping enforcement where systems actually touch people:",
+      "note": "The article proposes a risk-based classification system for AI use."
     }
   ],
-  "confidence": "medium",
-  "risk_flags": []
+  "confidence": "high",
+  "risk_flags": [
+    "regulation",
+    "AI use",
+    "risk-based classification"
+  ]
 }
