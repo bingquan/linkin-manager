@@ -1,0 +1,18 @@
+runner_mode: self_hosted
+backend: vllm
+model_name: Qwen/Qwen2.5-32B-Instruct-AWQ
+model_path: Qwen/Qwen2.5-32B-Instruct-AWQ
+api_base: http://127.0.0.1:8000/v1
+api_key: EMPTY
+timeout_seconds: 120
+require_live_llm: false
+tensor_parallel_size: 2
+context_length: 8192
+temperature:
+  draft: 0.5
+  revision: 0.2
+  evaluation: 0.1
+max_tokens:
+  draft: 900
+  revision: 700
+  evaluation: 300

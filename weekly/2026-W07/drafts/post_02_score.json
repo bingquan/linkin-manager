@@ -1,0 +1,11 @@
+{
+  "scores": {
+    "systems_strategic": 5,
+    "technical_rigor": 5,
+    "clarity": 5,
+    "novelty": 3
+  },
+  "passed": true,
+  "fail_reasons": [],
+  "revision_count": 0
+}

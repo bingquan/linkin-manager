@@ -1,0 +1,37 @@
+arxiv:
+  enabled: true
+  queries:
+    - "all:AI agents"
+    - "all:AI safety"
+    - "all:agent security"
+    - "all:evaluation"
+  max_results_per_query: 25
+rss:
+  enabled: true
+  feeds:
+    - "https://openai.com/news/rss.xml"
+    - "https://www.anthropic.com/news/rss.xml"
+    - "https://ai.googleblog.com/feeds/posts/default"
+    - "https://www.techbuzz.ai/api/rss/articles"
+    - "https://www.techbuzz.ai/api/rss/newsletters"
+    - "https://www.techbuzz.ai/api/rss/press-releases"
+    - "https://www.technologyreview.com/feed/"
+    - "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+    - "https://venturebeat.com/feed/"
+    - "https://venturebeat.com/category/ai/feed/"
+    - "https://techcrunch.com/feed/"
+    - "https://techcrunch.com/category/artificial-intelligence/feed/"
+    - "https://spectrum.ieee.org/rss/fulltext"
+    - "https://www.wired.com/feed/category/business/latest/rss"
+    - "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    - "https://www.infoq.com/feed/"
+    - "http://feeds.harvardbusiness.org/harvardbusiness/"
+standards:
+  enabled: true
+  items:
+    - title: "NIST AI Risk Management Framework"
+      url: "https://www.nist.gov/itl/ai-risk-management-framework"
+      credibility_tier: A
+    - title: "OWASP Top 10 for LLM Applications"
+      url: "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+      credibility_tier: A

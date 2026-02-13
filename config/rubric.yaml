@@ -1,0 +1,15 @@
+thresholds:
+  systems_strategic: 4
+  technical_rigor: 4
+  clarity: 3
+  novelty: 3
+weights:
+  systems_strategic: 0.3
+  technical_rigor: 0.3
+  clarity: 0.2
+  novelty: 0.2
+reject_rules:
+  - systems_strategic_below_threshold
+  - technical_rigor_below_threshold
+  - ungrounded_breakthrough_claim
+  - missing_citations_for_factual_claims

@@ -1,0 +1,45 @@
+themes:
+  - ai_agents
+  - ai_safety
+  - agent_security
+  - evaluations
+  - governance
+subthemes:
+  ai_agents:
+    - multi-agent coordination
+    - tool-use reliability
+  ai_safety:
+    - robustness
+    - misuse resistance
+audience:
+  - research_leads
+  - security_engineers
+  - policy
+  - founders
+cadence: 2
+pillars_allocation:
+  insight: 0.30
+  research_translation: 0.25
+  field: 0.25
+  leadership: 0.15
+  personal: 0.05
+tone:
+  - direct
+  - evaluative
+  - non-hype
+banned_moves:
+  - generic motivation
+  - paper summary only
+  - hype claims without sources
+stance_constraints:
+  emphasize:
+    - deployment constraints
+    - measurable claims
+    - threat modeling
+  avoid:
+    - inevitability narratives
+    - vendor marketing language
+freshness_days: 14
+min_credibility_tier: B
+top_k_topics: 30
+history_window_posts: 10

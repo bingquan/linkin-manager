@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "id": "standard:1606084844"
+    }
+  ],
+  "evidence": [
+    {
+      "source_id": "standard:1606084844",
+      "snippet": "Governance or security standard relevant to trustworthy deployment.",
+      "note": "supports the post's central claim"
+    }
+  ],
+  "confidence": "medium",
+  "risk_flags": []
+}
